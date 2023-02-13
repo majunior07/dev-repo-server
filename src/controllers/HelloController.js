@@ -5,3 +5,4 @@ class HelloController {
 }
 
 export default new HelloController();
+

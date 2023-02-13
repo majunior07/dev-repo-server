@@ -8,3 +8,5 @@ const routes = new Router();
 routes.get('/hello', HelloController.index);
 
 export default routes;
+
+
