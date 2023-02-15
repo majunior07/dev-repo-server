@@ -4,7 +4,7 @@ import User from "../models/User";
 class UsersControlller {
     async index(req, res) {
         try {
-            const users = await User.finf();
+            const users = await User.find();
             return res.json(users);
         } catch(err) {
             console.error(err);
